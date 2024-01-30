@@ -25,15 +25,6 @@ export default function RootLayout({
 
         {/* Google Fonts */}
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-
-        {/* Tailwind CSS */}
-        <link rel="stylesheet" href="/tailwind.css" />
-
-        {/* Custom CSS */}
-        <link rel="stylesheet" href="/styles.css" />
-
-        {/* JavaScript */}
-        <script src="/scripts.js"></script>
       </head>
       <body>
         <Header title="Kano" />

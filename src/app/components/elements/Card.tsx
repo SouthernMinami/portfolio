@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 type Props = {
   work: {
     id: number
@@ -22,10 +24,12 @@ export const Card = ({ work }: Props) => {
       <li className="card m-4">
         <div className="card-inner w-80 h-full">
           <div className="card-header">
-            <img
+            <Image
               src={work.thumbnail}
               alt={work.title}
-              className="card-thumbnail w-full"
+              className="card-thumbnail w-full h-48 object-cover"
+              width={500}
+              height={600}
             />
           </div>
           <div className="card-body w-full text-white bg-black">
