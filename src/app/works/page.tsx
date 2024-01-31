@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { Card } from '../components/elements/Card'
+import { Card } from './features/Card'
 
 const Works = () => {
   const [works, setWorks] = useState([])

@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { PageTopButton } from './components/elements/PageTopButton'
+import { Footer } from './components/layouts/Footer'
 import { Header } from './components/layouts/Header'
 import './globals.css'
 
@@ -20,15 +22,27 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
         <link rel="icon" href="/favicon.ico" />
-
+        {/* Devicon */}
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+        />
+        {/* Font Awesome */}
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        />
         {/* Google Fonts */}
         <link rel="preconnect" href="https://fonts.gstatic.com" />
       </head>
       <body>
         <Header title="Kano" />
-        <main>{children}</main>
+        <main>
+          {children}
+          <PageTopButton />
+        </main>
+        <Footer />
       </body>
     </html>
   )

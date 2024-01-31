@@ -1,58 +1,29 @@
-import Image from 'next/image'
+import Link from 'next/link'
 
 type Props = {
-  work: {
-    id: number
-    title: string
-    summary: string
-    content: string
-    url: string
-    github: string
-    thumbnail: string
-    date: string
+  page: {
+    name: string
+    path: string
+    detail: string
   }
 }
 
-export const Card = ({ work }: Props) => {
-  const formattedDate = new Date(work.date).toLocaleDateString('ja-JP', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  })
+export const Card = ({ page }: Props) => {
   return (
     <>
-      <li className="card m-4">
-        <div className="card-inner w-80 h-full">
-          <div className="card-header">
-            <Image
-              src={work.thumbnail}
-              alt={work.title}
-              className="card-thumbnail w-full h-48 object-cover"
-              width={500}
-              height={600}
-            />
+      {' '}
+      <Link href={page.path}>
+        <li className="card m-4 border border-slate-500 bg-slate-100">
+          <div className="card-inner w-80 h-full">
+            <div className="card-header bg-teal-500">
+              <h1 className="text-2xl">{page.name}</h1>{' '}
+            </div>
+            <div className="flex card-footer justify-between p-3">
+              {page.detail}
+            </div>
           </div>
-          <div className="card-body w-full text-white bg-black">
-            <h3 className="card-title text-3xl ml-3 mb-3 mr-3">{work.title}</h3>
-            <p className="card-summary m-3">{work.summary}</p>
-            <p className="card-date p-3">制作日：{formattedDate}</p>
-          </div>
-          <div className="flex card-footer justify-between bg-black p-3">
-            <a
-              href={work.url}
-              className="card-link border rounded bg-white p-3"
-            >
-              Site URL
-            </a>
-            <a
-              href={work.github}
-              className="card-link border rounded bg-white p-3"
-            >
-              GitHub
-            </a>
-          </div>
-        </div>
-      </li>
+        </li>
+      </Link>
     </>
   )
 }

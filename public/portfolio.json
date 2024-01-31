@@ -14,8 +14,8 @@
     "title": "Playing Card / トランプゲーム",
     "summary": "4つのゲームモードで遊べるシンプルなトランプゲームです",
     "content": "Playing Cardは、4つのトランプゲームで遊べるシンプルなトランプゲームです。\n\nこのツールの開発に当たっては、バックエンドとフロントエンドの両方を私一人で担当しました。バックエンドはNode.jsとExpressを使用し、フロントエンドはReact.jsで構築しました。データベースにはMongoDBを用い、ユーザーデータと金融データの管理を行いました。\n\nBudgetMasterはウェブ上で公開され、多くのユーザーから肯定的なフィードバックを得ています。特に、インターフェースの使いやすさと、予算追跡の明確さがユーザーから好評を博しています。このプロジェクトを通じて、私はデータ駆動型のユーザーインターフェースの設計と、セキュアなユーザーデータの管理について深く学ぶことができました。",
-    "url": "https://github.com/",
-    "github": "https://github.com/SouthernMinami/BurgerShopGame",
+    "url": "https://github.com/Frontend-teamDevC/playing-card",
+    "github": "https://playing-card-mu.vercel.app/",
     "thumbnail": "/assets/playing-card.png",
     "date": "2024-01-27T00:00:00"
   },
