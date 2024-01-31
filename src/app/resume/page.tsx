@@ -8,6 +8,27 @@ const Resume = () => {
           <br />
           *実際の社名は応募の際に送付の履歴書にてお伝えいたします。
         </p>
+
+        <div className="flex pt-4">
+          <p className="px-2">
+            <a
+              className="border border-slate-400 rounded text-black bg-blue-300 px-4 py-2 hover:text-white hover:bg-slate-400 transition duration-500 ease-in-out"
+              href="/assets/resume_kano.pdf"
+              download
+            >
+              履歴書をダウンロード
+            </a>
+          </p>
+          <p>
+            <a
+              className="border border-slate-400 rounded bg-lime-300 text-black px-4 py-2 hover:text-white hover:bg-slate-400 hover:text-white transition duration-500 ease-in-out"
+              href="/assets/cv_kano.pdf"
+              download
+            >
+              職務経歴書をダウンロード
+            </a>
+          </p>
+        </div>
         <div className="career">
           <h3 className="text-2xl mt-4">経歴</h3>
           <table className="table-auto">

@@ -11,7 +11,8 @@ export const Header = ({ title }: Props) => {
       <nav className={styles.nav}>
         <ul className="navbar flex items-center w-full h-full space-x-4">
           <li className="nav-item text-4xl font-bold text-white pb-2 pl-3 pr-2">
-            <Link className="nav-link" href="/">
+            <Link className="flex nav-link" href="/">
+              <img src="/assets/sq-icon.png" className="w-10" />
               {title}
             </Link>
           </li>
