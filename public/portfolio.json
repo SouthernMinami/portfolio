@@ -7,15 +7,15 @@
     "url": "https://southernminami.github.io/BurgerShopGame/src/index.html",
     "github": "https://github.com/SouthernMinami/BurgerShopGame",
     "thumbnail": "/assets/burger-shop-game.png",
-    "date": "2024-01-27T00:00:00"
+    "date": "2023-07-07T00:00:00"
   },
   {
     "id": 2,
     "title": "Playing Card / トランプゲーム",
     "summary": "4つのゲームモードで遊べるシンプルなトランプゲームです",
     "content": "Playing Cardは、4つのトランプゲームで遊べるシンプルなトランプゲームです。\n\nこのツールの開発に当たっては、バックエンドとフロントエンドの両方を私一人で担当しました。バックエンドはNode.jsとExpressを使用し、フロントエンドはReact.jsで構築しました。データベースにはMongoDBを用い、ユーザーデータと金融データの管理を行いました。\n\nBudgetMasterはウェブ上で公開され、多くのユーザーから肯定的なフィードバックを得ています。特に、インターフェースの使いやすさと、予算追跡の明確さがユーザーから好評を博しています。このプロジェクトを通じて、私はデータ駆動型のユーザーインターフェースの設計と、セキュアなユーザーデータの管理について深く学ぶことができました。",
-    "url": "https://github.com/Frontend-teamDevC/playing-card",
-    "github": "https://playing-card-mu.vercel.app/",
+    "url": "https://playing-card-mu.vercel.app/",
+    "github": "https://github.com/Frontend-teamDevC/playing-card",
     "thumbnail": "/assets/playing-card.png",
     "date": "2024-01-27T00:00:00"
   },
@@ -27,7 +27,7 @@
     "url": "https://github.com/SouthernMinami/MarkdownConverter",
     "github": "https://github.com/SouthernMinami/MarkdownConverter",
     "thumbnail": "/assets/markdown-converter.png",
-    "date": "2024-01-27T00:00:00"
+    "date": "2023-04-06T00:00:00"
   },
   {
     "id": 4,
@@ -37,16 +37,16 @@
     "url": "https://github.com/Recursion-BackendNovice-TeamA/TeamDev-OnlineChatMessenger",
     "github": "https://github.com/Recursion-BackendNovice-TeamA/TeamDev-OnlineChatMessenger",
     "thumbnail": "/assets/online-chat-messenger.png",
-    "date": "2024-01-27T00:00:00"
+    "date": "2023-10-10T00:00:00"
   },
   {
     "id": 5,
-    "title": "Audio Visualizer / オーディオビジュアライザー",
-    "summary": "TouchDesignerを使用して作成したオーディオビジュアライザーです。",
-    "content": "Audio Visualizerは、TouchDesignerを使用して作成したオーディオビジュアライザーです。このビジュアライザーは、音楽ファイルを読み込んで、音楽の波形を可視化します。\n\nこのプロジェクトを通じて、私はTouchDesignerの基本的な機能と、音楽の波形を可視化する方法を学ぶことができました。",
-    "url": "",
-    "github": "",
-    "thumbnail": "/assets/audio-visualizer.png",
-    "date": "2023-05-30T00:00:00"
+    "title": "Kano's Portfolio/Resume Website / ポートフォリオ・レジュメサイト",
+    "summary": "私自身の経歴や制作物を掲載している本サイトです。",
+    "content": "Kano's Portfolio/Resume Websiteは、私自身の経歴や制作物を掲載している本サイトです。本サイトは、App Routerについての学習も兼ねてNext.jsで制作し、本番環境の準備とデプロイの経験を積むためにAWSのEC2インスタンスとNginx、PM2を利用しました。Next.jsで作成したWebサイトを本番環境用のEC2インスタンスでビルドし、PM2でNodeアプリを永続化した後にNginxを用いてデプロイしました\n\nこれを通して、Next.jsのApp Routerのルーティング方法に慣れ、本番環境へのSSH接続とNginxでのデプロイに慣れることが出来ました。",
+    "url": "https://portfolio.kano.wiki/",
+    "github": "https://github.com/SouthernMinami/portfolio",
+    "thumbnail": "/assets/resume-website.png",
+    "date": "2024-01-31T00:00:00"
   }
 ]

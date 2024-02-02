@@ -40,12 +40,14 @@ export const Card = ({ work }: Props) => {
           <div className="flex card-footer justify-between bg-black p-3">
             <a
               href={work.url}
+              target="_blank"
               className="card-link border rounded bg-white p-3"
             >
               Site URL
             </a>
             <a
               href={work.github}
+              target="_blank"
               className="card-link border rounded bg-white p-3"
             >
               GitHub
