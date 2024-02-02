@@ -25,6 +25,10 @@
 
 *会社情報や本名につきましては現在非公開とさせていただいてます。会社名はイニシャルで表記しています。
 
+
+https://github.com/SouthernMinami/portfolio/assets/81604492/267715dd-553c-454e-93bb-fa2b3f1ad19a
+
+
 ### Worksページ
 
 | 機能 | 内容 |
@@ -34,6 +38,10 @@
 | Github | 成果物のGitHubリポジトリページへ遷移します。 |
 
 日々制作を行っているため、今後も随時更新していきます。
+
+
+https://github.com/SouthernMinami/portfolio/assets/81604492/1224f44f-654c-41a8-90aa-078b7ee38997
+
 
 ## ⚒️Skills
 
@@ -48,6 +56,10 @@
 | --- | --- |
 | 習得技術一覧 | 言語・フレームワーク等の経験年数と、それらを使ってできることを簡単に記載しています。 |
 | 学習経歴 | これまでに学習してきたことの内容と、それを通して得られたことやできるようになったことを記載しています。 |
+
+
+https://github.com/SouthernMinami/portfolio/assets/81604492/1b577890-8758-48ee-becc-26a048bc1fc4
+
 
 ## 🔥Motivations
 
