@@ -1,9 +1,19 @@
 [
   {
+    "id": 0,
+    "title": "Kano's Portfolio/Resume Website / ポートフォリオ・レジュメサイト",
+    "summary": "私自身の経歴や制作物を掲載している本サイトです。",
+    "content": "Kano's Portfolio/Resume Websiteは、私自身の経歴や制作物を掲載している本サイトです。本サイトは、App Routerについての学習も兼ねてNext.jsで制作し、本番環境の準備とデプロイの経験を積むためにAWSのEC2インスタンスとNginx、PM2を利用しました。Next.jsで作成したWebサイトを本番環境用のEC2インスタンスでビルドし、PM2でNodeアプリを永続化した後にNginxを用いてデプロイしました\n\nこの開発を通して、Next.jsのApp Routerのルーティング方法に慣れ、本番環境へのSSH接続とNginxでのデプロイに慣れることが出来ました。",
+    "url": "https://portfolio.kano.wiki/",
+    "github": "https://github.com/SouthernMinami/portfolio",
+    "thumbnail": "/assets/resume-website.png",
+    "date": "2024-01-31T00:00:00"
+  },
+  {
     "id": 1,
     "title": "Burger Shop Game / バーガーショップゲーム",
     "summary": "バーガーショップでの販売を体験できるクリッカーゲームです。",
-    "content": "Burger Shop Gameは、バーガーショップでハンバーガーを販売してお金を稼ぐことでバーガーショップ店員の体験ができる、暇つぶしにちょうどいいクリッカーゲームです。",
+    "content": "Burger Shop Gameは、バーガーショップでハンバーガーを販売してお金を稼ぐことでバーガーショップ店員の体験ができる、暇つぶしにちょうどいいクリッカーゲームです。\n\nこのゲームは、Typescriptを使って作成しました。\n\nこのゲームの開発を通して、Typescriptの扱いに慣れることが出来ました。",
     "url": "https://southernminami.github.io/BurgerShopGame/src/index.html",
     "github": "https://github.com/SouthernMinami/BurgerShopGame",
     "thumbnail": "/assets/burger-shop-game.png",
@@ -13,7 +23,7 @@
     "id": 2,
     "title": "Playing Card / トランプゲーム",
     "summary": "4つのゲームモードで遊べるシンプルなトランプゲームです",
-    "content": "Playing Cardは、4つのトランプゲームで遊べるシンプルなトランプゲームです。\n\nこのツールの開発に当たっては、バックエンドとフロントエンドの両方を私一人で担当しました。バックエンドはNode.jsとExpressを使用し、フロントエンドはReact.jsで構築しました。データベースにはMongoDBを用い、ユーザーデータと金融データの管理を行いました。\n\nBudgetMasterはウェブ上で公開され、多くのユーザーから肯定的なフィードバックを得ています。特に、インターフェースの使いやすさと、予算追跡の明確さがユーザーから好評を博しています。このプロジェクトを通じて、私はデータ駆動型のユーザーインターフェースの設計と、セキュアなユーザーデータの管理について深く学ぶことができました。",
+    "content": "Playing Cardは、4つのトランプゲームで遊べるシンプルなトランプゲームです。\n\nこちらは自分と開発経験が同じくらいの方2人とチーム開発で作成しました。バックエンドはNode.js、フロントエンドはTypescript、ゲームシーン作成のためにPhaserというゲーム開発用Javascriptライブラリを使用しました。\n\n この開発を通じて、チームで連携して必要なタスクを振り分けていく経験はもちろん、フロント側の動きと複雑なゲームルールやロジックをつなぎ合わせるにはどうするのかを経験することができました。",
     "url": "https://playing-card-mu.vercel.app/",
     "github": "https://github.com/Frontend-teamDevC/playing-card",
     "thumbnail": "/assets/playing-card.png",
@@ -23,7 +33,7 @@
     "id": 3,
     "title": "Markdown Converter / mdファイル変換スクリプト",
     "summary": "mdファイルをHTMLファイルに変換するPythonスクリプトです。",
-    "content": "Markdown Converterは、mdファイルをHTMLファイルに変換するPythonスクリプトです。このスクリプトは、mdファイルをHTMLファイルに変換するだけでなく、mdファイルの内容を解析して、HTMLファイルに適切なタイトル、サブタイトル、段落、リスト、画像、リンクを挿入します。\n\nこのスクリプトの開発には、Pythonを使用してmdファイルを解析し、HTMLファイルに変換する方法を学びました。また、このプロジェクトを通じて、私はPythonの基本的な構文と、ファイルの読み書きについて学ぶことができました。",
+    "content": "Markdown Converterは、mdファイルをHTMLファイルに変換するPythonスクリプトです。\n\nこのスクリプトの開発には、Pythonを使用してmdファイルを解析し、HTMLファイルに変換する方法を学びました。また、こちらの開発を通じて、Pythonの基本的な構文と、ファイルの読み書きについて学ぶことができました。",
     "url": "https://github.com/SouthernMinami/MarkdownConverter",
     "github": "https://github.com/SouthernMinami/MarkdownConverter",
     "thumbnail": "/assets/markdown-converter.png",
@@ -33,7 +43,7 @@
     "id": 4,
     "title": "Online Chat Messenger / ターミナル上のチャットアプリ",
     "summary": "ターミナル上で動作するチャットアプリです。",
-    "content": "Online Chat Messengerは、ターミナル上で動作するチャットアプリです。このアプリは、サーバーとクライアントの2つのプログラムで構成されています。サーバーは、クライアントからの接続を待ち受け、クライアントはサーバーに接続してメッセージを送受信します。\n\nこのアプリの開発には、Pythonのソケットプログラミングを使用しました。このプロジェクトを通じて、私はPythonのソケットプログラミングについて学ぶことができました。",
+    "content": "Online Chat Messengerは、ターミナル上で動作するチャットアプリです。このアプリは、サーバーとクライアントの2つのプログラムで構成されています。サーバーは、クライアントからの接続を待ち受け、クライアントはサーバーに接続してメッセージを送受信します。\n\nこのアプリの開発には、Pythonのを使用しました。この開発を通じて、私はPythonを用いてのソケットプログラミングについて学ぶことができました。",
     "url": "https://github.com/Recursion-BackendNovice-TeamA/TeamDev-OnlineChatMessenger",
     "github": "https://github.com/Recursion-BackendNovice-TeamA/TeamDev-OnlineChatMessenger",
     "thumbnail": "/assets/online-chat-messenger.png",
@@ -41,12 +51,22 @@
   },
   {
     "id": 5,
-    "title": "Kano's Portfolio/Resume Website / ポートフォリオ・レジュメサイト",
-    "summary": "私自身の経歴や制作物を掲載している本サイトです。",
-    "content": "Kano's Portfolio/Resume Websiteは、私自身の経歴や制作物を掲載している本サイトです。本サイトは、App Routerについての学習も兼ねてNext.jsで制作し、本番環境の準備とデプロイの経験を積むためにAWSのEC2インスタンスとNginx、PM2を利用しました。Next.jsで作成したWebサイトを本番環境用のEC2インスタンスでビルドし、PM2でNodeアプリを永続化した後にNginxを用いてデプロイしました\n\nこれを通して、Next.jsのApp Routerのルーティング方法に慣れ、本番環境へのSSH接続とNginxでのデプロイに慣れることが出来ました。",
-    "url": "https://portfolio.kano.wiki/",
-    "github": "https://github.com/SouthernMinami/portfolio",
-    "thumbnail": "/assets/resume-website.png",
-    "date": "2024-01-31T00:00:00"
+    "title": "PlantUML Problems / PlantUML問題集サイト",
+    "summary": "問題を参考にしながらPlantUMLの構文を練習できるサイトです。",
+    "content": "PlantUML Problemsは、問題を参考にしながらPlantUMLの構文を練習できるサイトです。エディタに正しいUML図を入力するとそれに対するプレビュー図が表示され、問題やチートシートを見ながらコードを書くことで書き方を学べます。\n\n。フロントエンドはHTML/CSS, Javascript、バックエンドはPHP、エディタにはMonacoエディタライブラリを利用し、NGINXを利用してEC2インスタンスからデプロイしました。\n\nこの開発を通じて、PHPによるバックエンド処理の書き方、フロントエンドとの連携の仕方、NGINXをリバースプロキシとして扱いPHP-FPMにリクエストを送ってサイトをデプロイする方法を学ぶことができました。",
+    "url": "https://plantuml-problems.kano.wiki/",
+    "github": "https://github.com/SouthernMinami/php-plantuml-problems",
+    "thumbnail": "/assets/plantuml-problems.png",
+    "date": "2023-03-08T00:00:00"
+  },
+  {
+    "id": 6,
+    "title": "Snippeta (スニペタ） / コードスニペット投稿サイト",
+    "summary": "会員登録なしで、よく使うコードスニペットを投稿できるサイトです。",
+    "content": "Snippetaは、会員登録なしで、よく使うコードスニペットを投稿できるサイトです。トップページのエディタからメジャーな言語のスニペットを好きに書いて投稿することができ、他のユーザーが投稿したコードスニペットを閲覧することもできます。\n\nフロントエンドはHTML/CSS, Javascript、バックエンドはPHP、データベースはMySQLを利用し、NGINXを利用してEC2インスタンスからデプロイしました。\n\nこの開発を通じて、PHPを利用してカスタムのコマンドを作成する方法や、PHPの記述によってデータベースのテーブルを作成したりデータ挿入したりする方法を学ぶことができました。",
+    "url": "https://snippeta.kano.wiki/",
+    "github": "https://github.com/SouthernMinami/snippeta",
+    "thumbnail": "/assets/snippeta.png",
+    "date": "2023-06-08T00:00:00"
   }
 ]
