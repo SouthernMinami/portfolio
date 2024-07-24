@@ -5,6 +5,8 @@
 私自身の職務経歴、学習経歴、制作物一覧が閲覧できるサイト
 
 💻サイトURL: [https://portfolio.kano.wiki/](https://portfolio.kano.wiki/)
+<br />
+↑のリンクからアクセスできない場合はこちらを試してください。 [https://southernminami.github.io/portfolio/](https://southernminami.github.io/portfolio/)
 
 ## ✨Features
 
